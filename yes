@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Peven Jumilla Ariola - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #87CEFA;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #4682B4;
+        }
+        .section {
+            padding: 20px;
+            border-bottom: 2px dashed #87CEFA;
+        }
+        .section h2 {
+            color: #4682B4;
+            font-size: 24px;
+        }
+        .section p, .section a {
+            font-size: 18px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 15px;
+        }
+        .footer {
+            background-color: #87CEFA;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-top: 5px solid #4682B4;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .iframe-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0;
+        }
+        .contact-info {
+            font-size: 16px;
+            color: #4682B4;
+            font-weight: bold;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: #4682B4;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .social-media a:hover {
+            color: #333;
+        }
+        .map iframe {
+            border: 2px solid #4682B4;
+            border-radius: 10px;
+        }
+        .social-media-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .skills-list, .testimonials-list, .projects-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .testimonials-list li, .projects-list li {
+            background: #f0f8ff;
+            border: 1px solid #87CEFA;
+            border-radius: 5px;
+            margin: 5px 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Jose Peven Jumilla Ariola</h1>
+        <p>Nurse at Lakewood</p>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <img src="https://i.pinimg.com/originals/63/2c/00/632c004fa6e0e39f660d925911946a0f.jpg" alt="Jose Peven Jumilla Ariola">
+        <p><em>This picture of Jennie looks like me trying to balance life</em></p>
+        <p>Hello! My name is Jose Peven Jumilla Ariola. I work as a nurse at Lakewood. I enjoy walking with my wife, trying new foods, and talking to friends. I have a passion for staying in expensive hotels, driving luxury cars, and living in upscale places. In my free time, I love going to coffee shops and spending time there on my laptop. I also enjoy K-pop a lot, with New Jeans being my favorite group.</p>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>ACLS</li>
+            <li>BLS</li>
+            <li>ICU Experience</li>
+            <li>Charge Nurse Experience</li>
+            <li>Previous Military Experience</li>
+            <li>RN Experience</li>
+            <li>Med-Surg Experience</li>
+            <li>Telemetry Experience</li>
+            <li>Step-Down Experience</li>
+            <li>ONS Certification for Oncology</li>
+            <li>Attending Masters in Nurse Practitioner School</li>
+            <li>Academic Tutor for Nurses at West Coast University</li>
+            <li>Improv Actor of the Year 2010</li>
+        </ul>
+    </div>
+
+    <div class="section" id="portfolio">
+        <h2>Portfolio</h2>
+        <p><strong>Monitor Tech</strong> (2012-2014)</p>
+        <p><strong>CNA/Unit Clerk/Cardiac Tech</strong> (2014-2019)</p>
+        <p><strong>Registered Nurse (RN)</strong> (2021-Present)</p>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Case Studies and Projects</h2>
+        <ul class="projects-list">
+            <li>Chemotherapy Education for UCI - Lakewood</li>
+        </ul>
+    </div>
+
+    <div class="section" id="testimonials">
+        <h2>Testimonials</h2>
+        <ul class="testimonials-list">
+            <li>"He's a nurse."</li>
+            <li>"He is helpful."</li>
+            <li>"Caring, but not smart."</li>
+        </ul>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me at <a href="mailto:pevenariola@hotmail.com">pevenariola@hotmail.com</a> or call me at <span class="contact-info">(559) 430-4179</span>.</p>
+    </div>
+
+    <div class="section" id="map">
+        <h2>Location</h2>
+        <p>You can always find me studying here on my days off!</p>
+        <p><strong>Stereoscope Coffee Company</strong><br>4542 Beach Blvd<br>Buena Park, CA 90621</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.720514812704!2d-117.99333178478252!3d33.89121948065388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2bd7e652bbbd%3A0x437b8b3b6faaff9f!2sStereoscope%20Coffee%20Company!5e0!3m2!1sen!2sus!4v1687739148583!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p>If not at Stereoscope, you can also find me at:</p>
+        <p><strong>Lakewood Regional Medical Center</strong><br>3700 E South St<br>Lakewood, CA 90712</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.924584693172!2d-118.14733148477923!3d33.859261180683154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2c11fb7fa999%3A0x174add02c8415ec8!2sLakewood%20Regional%20Medical%20Center!5e0!3m2!1sen!2sus!4v1687749468006!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="section" id="social-media">
+        <h2>Connect with Me</h2>
+        <p>Follow me on social media:</p>
+        <div class="social-media-container">
+            <p class="social-media"><a href="https://www.facebook.com/thefresnolip">Facebook</a></p>
+            <p class="social-media"><a href="https://www.instagram.com/pevenariola">Instagram</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Jose Peven Jumilla Ariola. All rights reserved.</p>
+   
